@@ -221,8 +221,394 @@
 # relationship_status = 'engaged'
 # relationship_status = 'married'
 
-from datetime import date
+# from datetime import date
 
-birth_year = input('What year were you born? ')
-age = date.today().year - int(birth_year)
-print(f'Your age is {age}.')
+# birth_year = input('What year were you born? ')
+# age = date.today().year - int(birth_year)
+# print(f'Your age is {age}.')
+
+# Exercise: Password Checker
+
+# username = input('Enter your username: ')
+# password = input('Enter your password: ')
+
+# password_length = len(password)
+# hidden_password = '*' * password_length
+
+# print(f'{username}, your password {hidden_password} is {password_length} characters long')
+
+# Lists
+
+# li = [1,2,3,4,5]
+# li2 = ['a','b','b']
+# li3 = [1, 2.5, 'a', True]
+
+# amazon_cart = ['notebooks', 'sunglasses']
+# print(amazon_cart[0])
+
+# lists are a form of array
+
+# List Slicing
+
+# amazon_cart = [
+#   'notebooks', 
+#   'sunglasses',
+#   'toys',
+#   'grapes'
+#   ]
+# amazon_cart[0] = 'laptop'
+# print(amazon_cart[0:3])
+
+# new_cart = amazon_cart # becomes pointer
+# new_cart = amazon_cart[:] # becomes new list
+
+# lists Exercise
+
+#What is the output of this code?
+#Before you clikc RUN, guess the output of each print statement!
+# new_list = ['a', 'b', 'c']
+# print(new_list[1]) # b
+# print(new_list[-2]) # b
+# print(new_list[1:3]) # b,c
+# new_list[0] = 'z'
+# print(new_list) # z,b,c
+
+# my_list = [1,2,3]
+# bonus = my_list + [5]
+# my_list[0] = 'z'
+# print(my_list) # z,2,3
+# print(bonus) # 1,2,3,5
+
+# Matrix
+
+# matrix = [
+#   [1,2,3],
+#   [4,5,6],
+#   [7,8,9]
+# ]
+
+# print(matrix[0][1])
+
+# Matrix Exercise
+
+# # using this list: 
+# basket = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+# # access "Oranges" and print it:
+# # You will find the answer if you scroll down to the bottom, but attempt it yourself first!
+# print(basket[1][1][0])
+
+# List Methods
+
+# basket = [1,2,3,4,5]
+# print(len(basket))
+
+# # adding
+# basket.append(100)
+# new_list = basket
+# print(new_list)
+
+# basket.insert(4, 100)
+# print(basket)
+
+# basket.extend([100,101])
+# print(basket)
+
+# removing
+# basket.pop()
+# basket.pop(0)
+# print(basket)
+
+# basket.remove(4)
+# print(basket)
+
+# basket.clear()
+# print(basket)
+
+# List Methods 2
+
+# basket = ['a','b','c','d','e']
+# print(basket.index('d'))
+# print(basket.index('d',0,4))
+# print('d' in basket)
+# print('x' in basket)
+
+# print(basket.count('d'))
+
+# List Methods 2 Exercise
+
+# # using this list, 
+# basket = ["Banana", "Apples", "Oranges", "Blueberries"];
+
+# # 1. Remove the Banana from the list
+# basket.pop(0)
+
+# # # 2. Remove "Blueberries" from the list.
+# basket.pop()
+
+# # # 3. Put "Kiwi" at the end of the list.
+# basket.append('Kiwi')
+
+# # # 4. Add "Apples" at the beginning of the list
+# basket.insert(0,'Apples')
+# # # 5. Count how many apples in the basket
+# print(basket.count('Apples'))
+# # # 6. empty the basket
+# basket.clear()
+
+# print(basket)
+
+# List Methods 3
+
+# basket = ['x','a','b','c','d','e','d']
+# # basket.sort() # sorts list
+# print(sorted(basket)) # does not alter list
+# print(basket)
+
+# new_list = basket.copy()
+# print(new_list)
+
+# basket.reverse()
+# print(basket)
+
+# Common List Patterns
+
+# basket = ['x','a','b','c','d','e','d']
+# # basket.sort()
+# # print(basket[::-1])
+
+# # print(list(range(1,100)))
+# # print(list(range(100)))
+
+# sentence = ' '
+# new_sentence = sentence.join(['hi','my','name','is','JOJO'])
+# print(new_sentence)
+
+# new_sentence = ' '.join(['hi','my','name','is','JOJO'])
+# print(new_sentence)
+
+# Common List Patterns Exercise
+
+#fix this code so that it prints a sorted list of all of our friends (alphabetical). Scroll to see answer
+# friends = ['Simon', 'Patty', 'Joy', 'Carrie', 'Amira', 'Chu']
+
+# new_friend = ['Stanley']
+
+# friends.extend(new_friend)
+# print(sorted(friends))
+
+# friends.append(new_friend[0])
+# friends.sort()
+# print(friends)
+
+# list unpacking
+
+# a,b,c, *other,d = [1,2,3,4,5,6,7,8,9]
+
+# print(a)
+# print(b)
+# print(c)
+# print(other)
+# print(d)
+
+# None
+
+# Null # Absence of value
+
+# weapons = None
+# print(weapons)
+
+# Dictionary
+
+# dict
+
+# dictionary = {
+#   'a' : 1,
+#   'b' : 2,
+#   'x' : 3
+# }
+
+# print(dictionary['b'])
+# print(dictionary)
+
+# dictionary2 = {
+#   'a': [1,2,3],
+#   'b': 'hello',
+#   'x': True
+# }
+
+# print(dictionary2)
+
+# my_list = [
+#   {
+#     'a': [1,2,3],
+#     'b': 'hello',
+#     'x': True
+#   },
+#   {
+#     'a': [4,5,6],
+#     'b': 'hello',
+#     'x': True
+#   }
+# ]
+
+# print(my_list[0]['a'][2])
+# print(my_list[0]['a'][1])
+
+# Dictionary Methods
+
+# user = {
+#   'basket': [1,2,3],
+#   'greet': 'hello',
+#   'age': 20
+# }
+# print(user.get('age',55))
+
+# user2 = dict(name='JohnJohn')
+# print(user2)
+
+# Dictionary Methods 2
+
+# user = {
+#   'basket': [1,2,3],
+#   'greet': 'hello',
+#   'age': 20
+# }
+
+# # print('hello' in user)
+# # print('hello' in user.keys())
+# # print('hello' in user.values())
+
+# # user2 = user.copy()
+
+# # print(user.clear())
+# # print(user2)
+
+# # user.pop('age')
+# # print(user)
+
+# # user.popitem()
+# # print(user)
+
+# user.update({'age': 55})
+# print(user)
+
+# user.update({'ages': 55})
+# print(user)
+
+# Dictionary Methods 2 Exercise
+
+#Scroll down to see the answers!
+#1 Create a user profile for your new game. This user profile will be stored in a dictionary with keys: 'age', 'username', 'weapons', 'is_active' and 'clan'
+
+#2 iterate and print all the keys in the above user.
+
+#3 Add a new weapon to your user
+
+#4 Add a new key to include 'is_banned'. Set it to false
+
+#5 Ban the user by setting the previous key to True
+
+#6 create a new user2 my copying the previous user and update the age value and username value. 
+
+# user = {
+#   'age': 33,
+#   'username': 'George Carlin',
+#   'weapons': ['sword','knife','bow'],
+#   'is_active': True,
+#   'clan': None
+# }
+
+# print(user.keys())
+
+# user['weapons'].append('arrow')
+# print(user.get('weapons'))
+
+# user.update({'is_banned': False})
+# print(user)
+
+# user.update({'is_banned': True})
+# print(user)
+
+# user2 = user.copy()
+# user2.update({'age': 25, 'username': 'Patton Oswalt'})
+# print(user2)
+
+# Tuples
+# Immutable Lists
+
+# my_tuple = (1,2,3,4,5)
+# print(my_tuple[2])
+# print(5 in my_tuple)
+
+# Tuples 2
+# x,y,z, *other = (1,2,3,4,5)
+
+# print(x)
+# print(y)
+# print(z)
+# print(other)
+
+# my_tuple = (1,2,3,4,5)
+# print(my_tuple.count(5))
+# print(my_tuple.index(5))
+# print(len(my_tuple))
+
+# Sets
+# unordered collection of unique objects
+
+# my_set = {1,2,3,4,5,5}
+# print(my_set)
+
+# my_set.add(100)
+# my_set.add(2)
+# print(my_set)
+
+# my_list = [1,2,3,4,5]
+# print(set(my_list))
+
+# my_set = {1,2,3,4,5,5}
+
+# print(1 in my_set)
+# print(len(my_set))
+# print(list(my_set))
+
+# new_set = my_set.copy()
+# my_set.clear()
+# print(new_set)
+# print(my_set)
+
+# Sets 2
+
+# my_set = {1,2,3,4,5}
+# your_set = {4,5,6,7,8,9,10}
+
+# print(my_set.difference(your_set))
+# my_set.discard(5)
+# print(my_set)
+
+# my_set.difference_update(your_set)
+# print(my_set)
+
+# print(my_set.intersection(your_set))
+# print(my_set & your_set)
+# print(my_set.isdisjoint(your_set))
+
+# print(my_set.union(your_set))
+# print(my_set | your_set)
+
+# my_set = {4,5}
+
+# print(my_set.issubset(your_set))
+# print(your_set.issuperset(my_set))
+
+# Sets Exercise
+
+# # You are working for the school Principal. We have a database of school students:
+# school = {'Bobby','Tammy','Jammy','Sally','Danny'}
+
+# #during class, the teachers take attendance and compile it into a list. 
+# attendance_list = ['Jammy', 'Bobby', 'Danny', 'Sally']
+
+# #using what you learned about sets, create a piece of code that the school principal can use to immediately find out who missed class so they can call the parents. (Imagine if the list had 1000s of students. The principal can use the lists generated by the teachers + the school database to use python and make his/her job easier): Find the students that miss class!
+
+# print(school.difference(attendance_list))

@@ -13,3 +13,8 @@
  Section 3 - Python Basics (started)  
  
  Day 2 thoughts: Andrei seems to be teaching a little faster than Colt.  It hasn't been an issue more me yet with some previous coding experience, but I wonder if a beginner would get stuck.  He does teach well, so perhaps not and I think he is just trying to get the "need to knows" out of the way so we can do some exercises/projects which I appreciate.  Overall, I'm enjoying the course so far, but it's hard to say if I will feel like a proficient Python dev afterwards yet.
+ 
+ # 1/17/2022
+ Section 3 - Python Basics (finished)  
+ 
+ Day 3 thoughts: I'm moving through pretty fast (2x speed on videos), so it seems like there is a lot to take in.  Concepts are familiar, but methods/syntax are obviously different.  Not difficult yet, but I'm hoping going through this fast will still allow it to stick enough that I can do some of the upcoming exercises or exercises in Ardit Sulce's 100 Python Problems course (starting in conjunction with this course after finishing Section 5: Developer Environment) without having to reference too much.  The exercises sprinkled in are going well, but I am ready to work on an actual problem.  Not a fault of the course, it's markets as Zero/Beginner, so I understand crawling->walking->running->to the moon?  Looking forward to starting Python Basics 2 tomorrow where we'll get into some of the usual suspects like loops, conditional logic, etc.
