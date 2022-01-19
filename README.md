@@ -18,3 +18,8 @@
  Section 3 - Python Basics (finished)  
  
  Day 3 thoughts: I'm moving through pretty fast (2x speed on videos), so it seems like there is a lot to take in.  Concepts are familiar, but methods/syntax are obviously different.  Not difficult yet, but I'm hoping going through this fast will still allow it to stick enough that I can do some of the upcoming exercises or exercises in Ardit Sulce's 100 Python Problems course (starting in conjunction with this course after finishing Section 5: Developer Environment) without having to reference too much.  The exercises sprinkled in are going well, but I am ready to work on an actual problem.  Not a fault of the course, it's markets as Zero/Beginner, so I understand crawling->walking->running->to the moon?  Looking forward to starting Python Basics 2 tomorrow where we'll get into some of the usual suspects like loops, conditional logic, etc.
+ 
+ # 1/18/2022
+ Section 4 - Python Basics (begin)
+ 
+ Day 4 thoughts: Getting into conditional logic, loops, and functions now.  Enjoying the course and the fact that Andrei promotes searching for answers on your own for some things.  The lack of parentheses and semi-colons is hard to get used to, but other than that, things are still going well.  Looking forward to more exercises.
