@@ -43,3 +43,11 @@
  Section 7 - Advanced Python: Functional Programming  
 
  Day 8 thoughts: This went through a few useful Python functions and went over Lambda expressions and comprehensions.  Funny story about Lambda Expressions.  In my first "real" technical interview, I was asked if I knew what lambda expressions were.  I was fairly new to programming and had only picked up some things from my then current job.  I got lambdas and deltas mixed up *face_palm* (they're both greek letters, right?!!)  When I answered of course I knew what lambdas were, they asked me to show an example.  It was at this moment that I realized my mistake.  As you may have surmised, the interview only went down hill from here because I felt like an idiot and I did not get the job.  Anyway, I can now confidently say I know was lambda expressions are...I mean, I've used them since in my job, but still, nice to have the background and the section completion to prove it!  Anyway, course still going great.  Learning a lot.  Hoping to go through a few sections tomorrow since they are pretty small.  
+
+# 1/25/2022  
+Section 8 - Advanced Python: Decorators  
+Section 9 - Advanced Python: Error Handling  
+Section 10 - Advanced Python: Generators (Coursework)  
+
+Day 9 thoughts:  Today I learned a lot that I didn't previously know.  I've working with error handling, but never with decorators or generators.  Very cool information.  The Fibonacci lesson was really cool because I know that does come up in interviews.  The next step in the course is to take a couple of tests on Python to test my understanding and then there are 100 problems to work through.  I'm hoping I can move through these pretty quickly without an issue, but it will be a test of how well I've absorbed the information for sure.  I'm looking forward to it.  
+
