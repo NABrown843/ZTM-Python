@@ -67,3 +67,49 @@
 
 # Question 7
 
+# def Create2DArray(x, y):
+#   result = []
+#   i = 0
+#   while i < x:
+#     tmp = []
+#     j = 0
+#     while j < y:
+#       tmp.append(i*j)
+#       j += 1
+#     result.append(tmp)
+#     i += 1
+#   return result
+
+# print(Create2DArray(3,5))
+
+# Question 8
+
+# my_list = input().split(',')
+
+# my_list.sort()
+
+# print(','.join(my_list))
+
+# Question 9
+
+# my_list = []
+
+# while len(input()) != 0:
+#   x = input()
+#   my_list.append(x.upper())
+
+# for line in my_list:
+#   print(line)
+
+# Question 10
+
+# my_list = input().split(' ')
+# result = []
+# for word in my_list:
+#   if word not in result:
+#     result.append(word)
+
+# print(' '.join(sorted(result)))
+
+# Question 11
+

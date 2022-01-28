@@ -2,6 +2,9 @@ from utility import multiply, divide
 from shopping.more_shopping import shopping_cart
 import random
 import sys
+import pyjokes
+import datetime
+from array import array
 
 if __name__ == '__main__':
     # print(multiply(4, 8))
@@ -16,4 +19,15 @@ if __name__ == '__main__':
     # random.shuffle(my_list)
     # print(my_list)
 
-    print(type(random.randint(1, 10)))
+    # print(type(random.randint(1, 10)))
+    # joke = pyjokes.get_joke('en','neutral')
+    #
+    # print(joke)
+
+    # print(datetime.time(5,45))
+    # print(datetime.time())
+    #
+    # arr = array('i',[1,2,3])
+    #
+    # print(arr[0])
+
