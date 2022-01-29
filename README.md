@@ -62,3 +62,9 @@ Section 10 - Problems 7-10
 Section 11 - Modules In Python (Finished)  
 
  Day 11 thoughts: "The best laid plans of mice and men often go awry" as they say. I was hoping to get through section 13, but only had time to complete section 11.  Got into public packages and installing through pip and PyCharm, so that's pretty cool.  I've heard a lot about numpy, pandas, and TensorFlow, so I'm sure some experimentation with them will be in my future.  My head was a little more in the game on the problems that I did and I enjoyed them, I just didn't have the time to go through more than I did.  I would love to get through a few sections tomorrow, but I'm not going to commit because that didn't work out so well for me today.  I am committed to at least doing some, but unsure how much.  Still enjoying the course and work.  
+
+ # 1/28/2022  
+ Section 12 - Debugging in Python  
+ Section 13 - File I/O  
+
+ Day 12 thoughts:  Got through section 12 and 13 today.  Not as much as I wanted to, but still a good bit.  Learned about PDB in python debugging.  I am fairly used to IntelliSense with Visual Studio and the debugger in IntelliJ/Rider, so I think I will prefer using PyCharm and break points.  He didn't mention breakpoints, so I'm just hopeful that's a thing with PyCharm (TBD).  File I/O was fun, but the Japanese translator errored out because Windows didn't want to write Japanese to a text file.  Guess I'll have to go back to Linux after all.  Hopefully going to get a little more done tomorrow.  
