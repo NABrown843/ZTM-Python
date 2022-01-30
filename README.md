@@ -68,3 +68,11 @@ Section 11 - Modules In Python (Finished)
  Section 13 - File I/O  
 
  Day 12 thoughts:  Got through section 12 and 13 today.  Not as much as I wanted to, but still a good bit.  Learned about PDB in python debugging.  I am fairly used to IntelliSense with Visual Studio and the debugger in IntelliJ/Rider, so I think I will prefer using PyCharm and break points.  He didn't mention breakpoints, so I'm just hopeful that's a thing with PyCharm (TBD).  File I/O was fun, but the Japanese translator errored out because Windows didn't want to write Japanese to a text file.  Guess I'll have to go back to Linux after all.  Hopefully going to get a little more done tomorrow.  
+
+ # 1/29/2022  
+ Section 14 - Regular Expressions  
+ Section 15 - Testing In Python  
+ Section 16 - Career Of A Python Developer  
+ Section 17 - Scripting With Python (Begin)  
+
+ Day 13 thoughts:  Got through a good bit today.  I haven't spent a lot of time with RegEx, so it was nice to get a little better understanding of this tool.  I plan to spend some more time with this and use it more in my day to day work where I can.  I'm familiar with UnitTests and have used them for certain projects in the past.  To be completely candid, there are some projects that I haven't used them professionally.  I should probably commit more time to this practice for all projects.  For the career of a Python developer, I'm somewhat familiar with these paths.  After 5 years as a "Fullstack" engineer, I think it would be hard to pivot to some of these without getting inside of a company that utilizes and slowly transitioning.  Not saying that's a goal, just a thought.  I will primarily use Python for backend or scripting purposes, but I'd love to dive more into Machine Learning as time goes on.  For the scripting section, I really just started it.  Learned a little bit about image processing which was pretty cool.  Looking forward to continuing this section tomorrow and getting some actual python projects under my belt.  
