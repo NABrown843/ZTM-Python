@@ -16,7 +16,7 @@ from PIL import Image, ImageFilter
 # resize.save('resized_img.png','png')
 # resize.show()
 
-img = Image.open('astro.jpg')
-img.thumbnail((400,400))
-img.save('astro_thumbnail.jpg')
-img.show()
+# img = Image.open('astro.jpg')
+# img.thumbnail((400,400))
+# img.save('astro_thumbnail.jpg')
+# img.show()
