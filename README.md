@@ -83,6 +83,11 @@ Section 11 - Modules In Python (Finished)
  Day 14 thoughts: I was able to go through the project with a bit of googling on things we haven't covered, but overall, fairly easy project.  I love that every lesson usually has at least some new concept to add to the toolbox.  I didn't get much done beyond this project today, but I watched Andrei's videos on Git.  I usually use GitHub Desktop, but it's nice to be able to use the command line for some of these changes.  Working on a team that utilizes Microsoft stacks, I'm used to using Team Foundation Server as source control, but I'd like to continue learning how powerful Git is to eventually branch into contributing to open source projects and building a strong personal portfolio.  Luckily contributing to open source and building a portfolio website are included in this course, so built in achievements!  
  
  # 1/31/2022  
- Section 17 - Scriptin with Python (PDF Watermarker)  
+ Section 17 - Scripting with Python (PDF Watermarker)  
 
  Day 15 thoughts:  I created the PDF Watermarker project today.  I went a little offscript from Andrei by allowing it to pass in specific file paths and pull all files in the path for the watermark.  Took me a second because I made a mistake with the open syntax, but once I figured that out, it was smooth sailing.  I'd really like to finish this section and the scraping data with Python section tomorrow, so I'm hoping that's doable.  If so, I'm hoping to finish the course by Friday.  Fingers crossed.  
+
+ # 2/1/2022  
+ Section 17 - Scripting with Python (Email Sender, Password Checker, Twitter Bot, Texting)  
+
+ Day 16 thoughts:  I finished up section 17 today with the emailer, password checker, twitter bot, and texting app.  Had account issues with twitter API, so I did not include that code in source control.  I didn't get into web scraping like I was hoping, but still got a good bit done.  Hopefully I'll be able to knock out web scraping tomorrow.  Due to personal obligations, I know I won't get much of the web dev section done on Thursday, but hopefully I can finish it up Friday leaving Automation/Testing and Machine Learning/Data Science.  
